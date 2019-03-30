@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	box-sizing: border-box;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("../img/veg4.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.form-control{
+	width: 80vw;
+	color: #fff;
+	margin-bottom: 30px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+#user_name{
+	width: 80vw;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-right: 1px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+}
+
+#inputPass,#inputMail,#user_name{
+	background-color: transparent;
+	border-bottom: 2px solid #fff; 
+}
+
+
+@media screen and (min-width:576px){
+
+	#user_name{
+	width: 37vw;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-right: 1px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+}
+
+
+}
+
+@media screen and (min-width:776px){
+
+
+	.container{
+		display: flex;
+		justify-content: center;
+		width: 60vw;
+		margin-top: 20px;
+		padding-top: 20px;
+		padding-bottom: 80px;
+		background-color:transparent;
+
+		border: 1px solid #12475f;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 1%;
+
+	}
+	 #loginTitle{
+		display: flex;
+		justify-content: center;
+		top: -20px;
+	}
+
+	#user_name{
+	width: 24vw;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-right: 0;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 2px solid #fff;
+	/* background-color: transparent; */
+}
+
+
+#inputMail{
+	width: 50vw;
+	border-bottom: 2px solid #fff;
+	/* background-color: transparent; */
+	color: #fff;
+}
+
+#inputPass{
+	width: 50vw;
+	border-bottom: 2px solid #fff;
+	/* background-color: transparent; */
+	color:#fff;
+}
+
+#inputUsername{
+	width: 50vw;
+	border-bottom: 2px solid #fff;
+	/* background-color: transparent; */
+	color: #fff;
+}
+
+#Title{
+		display: flex;
+		justify-content: center;
+		top: -20px;
+	}
+
+}
+
+
+input:focus{
+	color:red;
+}

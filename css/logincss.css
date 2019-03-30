@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	box-sizing: border-box;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("../img/veg1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+#user_name{
+	width: 80vw;
+	color: #fff;
+	margin-bottom: 30px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+#input{
+	width: 80vw;
+	color: #fff;
+	margin-bottom: 30px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+.awesome i{
+	background-color: #20c997; 
+}
+
+.linkup a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.linkup a:hover{
+	color: #20c997;
+}
+
+
+@media screen and (min-width:776px){
+
+	.container{
+		width: 60vw;
+		margin-top: 100px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background-color: transparent;
+
+		border: 1px solid #12457f;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 1%;
+
+	}
+	 #loginTitle{
+		display: flex;
+		justify-content: center;
+		top: -20px;
+	}
+
+	#user_name{
+	width: 50vw;
+	color: #fff;
+	margin-bottom: 30px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+}
+
+#input{
+	width: 50vw;
+	color: #fff;
+	margin-bottom: 30px;
+	border-top:0;
+	border-right:0;
+	border-left: 0;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+}
+
+}

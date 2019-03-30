@@ -1,0 +1,48 @@
+.carousel-caption
+			{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 100%;
+                padding-bottom: 150px;
+                
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.4);
+            }
+
+
+            
+.option{
+    background-color:none;
+}
+
+.fa{
+    border-radius: 100%;
+}
+
+.lead{
+    line-height: 40px !important;
+}
+
+
+footer{
+	padding:50px;
+}
+
+#shortcuts a{
+	color:white;
+	width:100%;
+}
+
+#shortcuts a:hover{
+	background-color: white;
+	color:black;
+}
+
+
+input['placeholder']{
+	color:white;
+}
